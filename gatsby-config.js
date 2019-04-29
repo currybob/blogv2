@@ -3,12 +3,12 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    url: 'https://github.com/likelionWonHo',
+    title: '김원호의 Dev Log',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
-    disqusShortname: '',
+      '개발을 잡다하게 배워가는 중입니다. 자바스크립트에 관심이 많습니다.',
+    copyright: '©2019 likelionWonho All rights reserved.',
+    disqusShortname: 'likelionwonhos-blog',
     menu: [
       {
         label: 'Articles',
@@ -18,19 +18,12 @@ module.exports = {
         label: 'About me',
         path: '/about/',
       },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      name: '🚀Wonho Kim',
+      email: 'rhwhdeodhkd@gmail.com',
+      github: 'likelionWonHo',
       rss: '#',
-      vk: '#',
     },
   },
   plugins: [
@@ -126,7 +119,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['roboto:400,400i,500,700'],
+        fonts: ['Noto Sans KR:400,400i,500,700'],
       },
     },
     {

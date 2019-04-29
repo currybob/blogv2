@@ -13,7 +13,7 @@ class TagTemplate extends React.Component {
     return (
       <Layout>
         <div>
-          <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
+          <Helmet title={`"${tag}" 태그로 검색된 다른 글 - ${title}`} />
           <Sidebar {...this.props} />
           <TagTemplateDetails {...this.props} />
         </div>
@@ -38,11 +38,8 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
-          twitter
           github
           rss
-          vk
         }
       }
     }

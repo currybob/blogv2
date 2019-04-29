@@ -4,19 +4,19 @@ import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
 
+const homeBlock = (
+  <div>
+    <Link className="post-single__home-button" to="/">
+      Home
+    </Link>
+  </div>
+)
+
 class PostTemplateDetails extends React.Component {
   render() {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-
-    const homeBlock = (
-      <div>
-        <Link className="post-single__home-button" to="/">
-          All Articles
-        </Link>
-      </div>
-    )
 
     const tagsBlock = (
       <div className="post-single__tags">
@@ -54,9 +54,7 @@ class PostTemplateDetails extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
             <div className="post-single__date">
-              <em>
-                Published {moment(post.frontmatter.date).format('D MMM YYYY')}
-              </em>
+              {moment(post.frontmatter.date).format('YYYY년 MM월 DD일')} 작성
             </div>
           </div>
           <div className="post-single__footer">
@@ -65,11 +63,11 @@ class PostTemplateDetails extends React.Component {
             <p className="post-single__footer-text">
               {subtitle}
               <a
-                href={`https://twitter.com/${author.twitter}`}
+                href={`https://github.com/likelionWonHo`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <br /> <strong>{author.name}</strong> on Twitter
+                <br /> <strong>{author.name}</strong> on Github
               </a>
             </p>
             {commentsBlock}

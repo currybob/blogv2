@@ -1,3 +1,6 @@
-node_modules/
-public/
-.cache/
+.cache/*
+node_modules/*
+public/*
+package.json
+yarn.lock
+*.md

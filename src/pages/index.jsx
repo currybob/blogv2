@@ -4,6 +4,11 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
+import moment from 'moment'
+import 'moment/locale/ko'
+import favicon from './images/favicon.png'
+
+moment.locale('ko')
 
 class IndexRoute extends React.Component {
   render() {
@@ -17,7 +22,15 @@ class IndexRoute extends React.Component {
     return (
       <Layout>
         <div>
-          <Helmet>
+          <Helmet
+            link={[
+              {
+                rel: 'shortcut icon',
+                type: 'image/icon',
+                href: `${favicon}`,
+              },
+            ]}
+          >
             <title>{title}</title>
             <meta name="description" content={subtitle} />
           </Helmet>
@@ -47,11 +60,8 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
-          twitter
           github
           rss
-          vk
         }
       }
     }

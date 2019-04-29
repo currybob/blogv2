@@ -20,7 +20,7 @@ class Post extends React.Component {
             className="post__meta-time"
             dateTime={moment(date).format('MMMM D, YYYY')}
           >
-            {moment(date).format('MMMM YYYY')}
+            {moment(date).format('YYYY / MM월 D일')}
           </time>
           <span className="post__meta-divider" />
           <span className="post__meta-category" key={categorySlug}>
@@ -34,9 +34,9 @@ class Post extends React.Component {
             {title}
           </Link>
         </h2>
-        <p className="post__description">{description}</p>
+        {description && <p className="post__description">{description}</p>}
         <Link className="post__readmore" to={slug}>
-          Read
+          바로가기
         </Link>
       </div>
     )
