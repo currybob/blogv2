@@ -7,7 +7,7 @@ import './style.scss'
 const homeBlock = (
   <div>
     <Link className="post-single__home-button" to="/">
-      Home
+      글 목록
     </Link>
   </div>
 )

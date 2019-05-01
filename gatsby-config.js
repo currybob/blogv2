@@ -119,7 +119,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: ['Lato:400,400i,500,700'],
+        fonts: ['Lato:400,400i,500,700', 'Ubuntu Mono:400,400i,500,700'],
       },
     },
     {

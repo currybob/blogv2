@@ -31,6 +31,10 @@ $typographic-link-s-font-color: $color-secondary;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
 
+// code
+$code-font-family: "Ubuntu Mono",
+monospace;
+
 // Layout
 $layout-post-single-max-width: 998px;
 $layout-post-single-width: $layout-post-single-max-width - 305px;
