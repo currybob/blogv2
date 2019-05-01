@@ -3,7 +3,7 @@ title: 'Javascript 1. - 실행 컨텍스트와 스코프 (Execution Contexts)'
 date: "2018-09-16"
 layout: "post"
 draft: false
-path: "/posts/3"
+path: "/posts/2"
 category: "Javascript 기초"
 tags:
   - "Javascript"

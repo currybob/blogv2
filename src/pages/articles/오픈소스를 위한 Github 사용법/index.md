@@ -3,7 +3,7 @@ title: 'Github 사용법 - 오픈소스를 위한 Pull Request'
 date: "2018-09-16"
 layout: "post"
 draft: false
-path: "/posts/2"
+path: "/posts/3"
 category: "Git"
 tags:
   - "Git"
