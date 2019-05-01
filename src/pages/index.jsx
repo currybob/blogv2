@@ -6,7 +6,6 @@ import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
 import moment from 'moment'
 import 'moment/locale/ko'
-import favicon from './images/favicon.png'
 
 moment.locale('ko')
 
@@ -22,15 +21,7 @@ class IndexRoute extends React.Component {
     return (
       <Layout>
         <div>
-          <Helmet
-            link={[
-              {
-                rel: 'shortcut icon',
-                type: 'image/icon',
-                href: `${favicon}`,
-              },
-            ]}
-          >
+          <Helmet>
             <title>{title}</title>
             <meta name="description" content={subtitle} />
           </Helmet>
