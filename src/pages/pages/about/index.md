@@ -8,10 +8,6 @@ path: "/about"
 
 경영학과 역사를 전공한, 아직 학생인 개발자 지망생입니다.
 
-맨몸운동, 주짓수, 여행, 그리고 개발하기를 좋아합니다.
-
-언젠가 세계를 돌아다니며 개발 일을 지속하는게 꿈입니다.
-
 ### Projects.
 
 - [GitCodeShare](https://github.com/kosslab-kr/gitCodeShare.com) / FE Develop / 2018.08 ~ 2018.11<br>Open Source Chrome extension for sharing code to SNS
