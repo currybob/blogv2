@@ -23,7 +23,7 @@ module.exports = {
       name: '🚀Wonho Kim',
       email: 'rhwhdeodhkd@gmail.com',
       github: 'likelionWonHo',
-      rss: '#',
+      rss: 'rss.xml',
     },
   },
   plugins: [
