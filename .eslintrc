@@ -3,18 +3,23 @@
   "extends": ["prettier", "airbnb"],
   "plugins": ["import", "jsx-a11y", "react"],
   "globals": {
-    "graphql": true
+    "graphql": true,
+    "document": true,
+    "window": true
   },
   "rules": {
     "arrow-body-style": [
       "error",
       "as-needed",
-      { "requireReturnForObjectLiteral": true }
+      {
+        "requireReturnForObjectLiteral": true
+      }
     ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
     "function-paren-newline": "off",
     "no-console": "off",
+    "no-alert": "off",
     "prefer-destructuring": "off",
     "semi": ["error", "never"],
     "import/extensions": "off",

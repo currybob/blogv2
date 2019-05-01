@@ -155,6 +155,18 @@ module.exports = {
           }),
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: '김원호의 Dev Log',
+        short_name: '김원호 블로그',
+        start_url: '/',
+        background_color: '#FDDE73',
+        theme_color: '#FDDE73',
+        display: 'standalone',
+        icon: `${__dirname}/src/assets/images/photo.jpg`,
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
