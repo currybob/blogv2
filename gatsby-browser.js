@@ -9,6 +9,7 @@ export const onServiceWorkerUpdateFound = () => {
 }
 
 export const onServiceWorkerActive = ({ serviceWorker }) => {
+  console.log(serviceWorker)
   serviceWorker.registration.showNotification('안녕하세요', {
     body: '김원호 블로그에 오신 것을 환영합니다',
     icon: 'src/assets/images/photo.jpg',
