@@ -3,7 +3,8 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://github.com/likelionWonHo',
+    url: 'https://undefine.me',
+    siteUrl: 'https://undefine.me',
     title: '김원호의 Dev Log',
     subtitle:
       '개발을 잡다하게 배워가는 중입니다. 자바스크립트에 관심이 많습니다.',
