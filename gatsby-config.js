@@ -114,7 +114,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-139433739-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
@@ -167,6 +167,7 @@ module.exports = {
         icon: `${__dirname}/src/assets/images/photo.jpg`,
       },
     },
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
