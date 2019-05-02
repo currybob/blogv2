@@ -18,7 +18,12 @@ class Layout extends React.Component {
               href: `${favicon}`,
             },
           ]}
-        />
+        >
+          <meta
+            name="google-site-verification"
+            content="CL7-_UBaFL9ZdAGFf1_vvz2eCPAY3S-hbMqIwISq0bQ"
+          />
+        </Helmet>
         {children}
       </div>
     )
