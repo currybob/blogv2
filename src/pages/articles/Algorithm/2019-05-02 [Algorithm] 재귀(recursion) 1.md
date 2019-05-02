@@ -8,6 +8,7 @@ category: "Algorithm"
 tags:
   - "Algorithm"
   - "재귀"
+description: "재귀의 기본 개념과 재귀적 사고에 대해 학습합니다."
 ---
 
 ### Recursion

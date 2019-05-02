@@ -8,6 +8,7 @@ category: "Algorithm"
 tags:
   - "Algorithm"
   - "재귀"
+description: "미로 찾기 문제를 해결합니다."
 ---
 
 ### Recursion 2.

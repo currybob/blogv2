@@ -8,6 +8,7 @@ category: "Algorithm"
 tags:
   - "Algorithm"
   - "재귀"
+description: "Counting cells in a Blob 문제를 해결합니다."
 ---
 
 ### Recursion 03.
