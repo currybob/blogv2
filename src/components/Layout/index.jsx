@@ -18,12 +18,17 @@ class Layout extends React.Component {
               href: `${favicon}`,
             },
           ]}
-        >
-          <meta
-            name="google-site-verification"
-            content="CL7-_UBaFL9ZdAGFf1_vvz2eCPAY3S-hbMqIwISq0bQ"
-          />
-        </Helmet>
+          meta={[
+            {
+              name: 'google-site-verification',
+              content: 'CL7-_UBaFL9ZdAGFf1_vvz2eCPAY3S-hbMqIwISq0bQ',
+            },
+            {
+              name: 'naver-site-verification',
+              content: '0c9eb9ef4452e7b884e9361a8cb88bd1fff5e889',
+            },
+          ]}
+        />
         {children}
       </div>
     )
