@@ -11,9 +11,7 @@ tags:
 description: "N Queens problem을 해결합니다."
 ---
 
-### Recursion 4.
-
-#### N Queens Problem
+### N Queens Problem
 
 - 체스 판을 생각해보자
 - 같은 열, 행, 대각선 상에 중복되지 않게 N개의 말을 놓아라.
@@ -126,6 +124,8 @@ boolean promising(int level) {
 ```java
 // 폴더 내 그림 참고
 
-if (level-i == Math.abs(cols[level] - cols[i]);
+if (level - i == Math.abs(cols[level] - cols[i]);
 	return false;
 ```
+
+출처: [권오흠 교수님 알고리즘 강좌](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/dashboard)

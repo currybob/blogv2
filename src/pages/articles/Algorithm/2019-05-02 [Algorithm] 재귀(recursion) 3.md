@@ -11,9 +11,7 @@ tags:
 description: "Counting cells in a Blob 문제를 해결합니다."
 ---
 
-### Recursion 03.
-
-#### Counting cells in a Blob
+### Counting cells in a Blob
 
 - Binary 이미지
 - 각 픽셀은 background pixel 이거나 혹은 image pixel
@@ -76,3 +74,5 @@ public int countCells(int x, int y) {
 		return 1 + countCells(x-1, y+1) + countCells(x, y+1) + countCells(x + 1, y + 1) + countCells(x - 1, y) + countCells(x + 1, y) + countCells(x - 1, y - 1) + countCells(x, y - 1) + countCells(x + 1, y - 1);
 }
 ```
+
+출처: [권오흠 교수님 알고리즘 강좌](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/dashboard)

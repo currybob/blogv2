@@ -11,9 +11,7 @@ tags:
 description: "미로 찾기 문제를 해결합니다."
 ---
 
-### Recursion 2.
-
-#### 미로찾기
+### 미로찾기
 
 recursion 으로 해결하는 것이 가장 간편
 
@@ -123,3 +121,5 @@ public class Maze {
 	}
 }
 ```
+
+출처: [권오흠 교수님 알고리즘 강좌](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/dashboard)
