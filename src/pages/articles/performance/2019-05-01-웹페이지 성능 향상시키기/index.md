@@ -68,7 +68,7 @@ tags:
 - 뷰포트 바깥에 있는 이미지는 초기 로딩 속도를 위해 lazy loading을 해준다. 이미지의 사이즈는 보통 전체 용량의 50% 가량 차지한다.
 
 #### 너비 줄이기
-너비를 줄이는 것은 파일의 용량을 줄이는 것을 말한다. 여기에 해당되는 지표는 initial connection, waiting(TTFB), Content downloaded 이다. 아래 이미지에서 자세히 확인해 보자.
+너비를 줄이는 것은 파일의 다운 속도를 줄이는 것을 말한다. 다운 속도를 줄이려면? 네트워크 속도를 개선하거나 파일의 용량을 줄이거나! 여기에 해당되는 지표는 initial connection, waiting(TTFB), Content downloaded 이다. 아래 이미지에서 자세히 확인해 보자.
 
 <img src="./2.png" alt="네트워크 waterfall 팝업">
 

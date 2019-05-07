@@ -16,7 +16,7 @@ description: "멱집합(모든 부분집합) 문제에 대해 알아봅니다."
 - 임의의 집합 data의 모든 부분집합을 출력하라.
 - 모든 가능한 갯수 찾기 문제
 
-##### 예시
+#### 예시
 
 ```
 data = {a, b, c, d}
@@ -26,7 +26,7 @@ data = {a, b, c, d}
 - 2개의 경우의 수 (true or false);
 - 2^4 = 16개의 가능한 부분집합.
 
-##### Recursive Thinking
+#### Recursive Thinking
 
 {a,b,c,d,e,f} 의 모든 부분집합을 나열하려면, a를 제외한 **{b,c,d,e,f} 의 모든 부분집합**들을 나열한다.
 
