@@ -7,18 +7,16 @@ export const onServiceWorkerUpdateReady = () => {
 }
 
 export const onServiceWorkerRedundant = ({ serviceWorker }) => {
-  if (typeof window !== 'undefined' && 'serviceWorker' in window.navigator) {
-    serviceWorker.getRegistrations().then(registrations => {
-      registrations.forEach(r => r.unregister())
-    })
-  }
+  serviceWorker.getRegistrations().then(registrations => {
+    registrations.forEach(r => r.unregister())
+  })
 }
 
 export const onServiceWorkerActive = ({ serviceWorker }) => {
+  console.log(serviceWorker)
+
   serviceWorker.registration.showNotification('안녕하세요', {
     body: '김원호 블로그에 오신 것을 환영합니다',
     icon: 'src/assets/images/photo.jpg',
   })
 }
-
-// export const registerServiceWorker = () => true
