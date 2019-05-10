@@ -122,17 +122,18 @@
     height: 35px;
     line-height: 35px;
     text-align: center;
-    color: lighten($color-base, 20%);
-    background: $color-gray-bg;
+    color: lighten($color-base, 10%);
+    background: $color-white;
+    border: 1px solid darken($color-gray-border, 20%);
     font-weight: 400;
-    border-radius: 3px;
+    border-radius: 50px;
+    transition: all .2s ease;
     @include margin-top(1);
 
     &:hover,
     &:focus {
       color: $color-base;
-      background: darken($color-gray-bg, 5%);
-      border: 0;
+      border-color: darken($color-gray-border, 40%);
     }
   }
 }
@@ -230,8 +231,8 @@
 
     &__home-button {
       position: fixed;
-      max-width: auto;
       margin: 0;
+      padding: 0 30px;
       top: 30px;
       left: 30px;
     }
