@@ -5,7 +5,8 @@
   "globals": {
     "graphql": true,
     "document": true,
-    "window": true
+    "window": true,
+    "Notification": true
   },
   "rules": {
     "arrow-body-style": [
