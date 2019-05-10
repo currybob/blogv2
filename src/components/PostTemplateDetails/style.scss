@@ -51,7 +51,8 @@
       @include margin-bottom(1);
     }
 
-    & :not(div) {
+    & :not(div),
+    & .mermaid {
       max-width: $layout-post-single-width;
       margin-left: auto;
       margin-right: auto;
