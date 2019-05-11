@@ -32,7 +32,7 @@ description: "주어진 수 대로 괄호 쌍을 만드는 문제를 해결합�
 ```javascript
 function solution(n) {
   const result = [];
-  function makeBracket(open, close, bracket){
+  function makeBracket(open = 0, close = 0, bracket = ''){
 
     if (open < close) return;
     
@@ -49,5 +49,9 @@ function solution(n) {
       makeBracket(open, close + 1, bracket + '(')
     }
   }
+
+  makeBracket();
+
+  return result;
 }
 ```
