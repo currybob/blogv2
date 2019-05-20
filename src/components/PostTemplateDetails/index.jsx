@@ -14,7 +14,7 @@ const homeBlock = (
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata
+    const { author, footerMessage } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
 
@@ -61,7 +61,8 @@ class PostTemplateDetails extends React.Component {
             {tagsBlock}
             <hr />
             <p className="post-single__footer-text">
-              {subtitle}
+              {footerMessage}
+              <br />
               <a
                 href={`https://github.com/likelionWonHo`}
                 target="_blank"

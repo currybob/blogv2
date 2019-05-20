@@ -21,6 +21,7 @@
     "function-paren-newline": "off",
     "no-console": "off",
     "no-alert": "off",
+    "no-multi-str": "off",
     "prefer-destructuring": "off",
     "semi": ["error", "never"],
     "import/extensions": "off",
