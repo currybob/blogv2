@@ -64,7 +64,7 @@ class PostTemplateDetails extends React.Component {
               {footerMessage}
               <br />
               <a
-                href={`https://github.com/likelionWonHo`}
+                href={`https://github.com/hipbob`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
