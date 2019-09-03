@@ -12,7 +12,7 @@ module.exports = {
       '대부분 제가 배운 것들을 남기기 위해 글을 쓰고 있습니다.\
       이 글이 도움이 된다면 매우 기쁘겠지만, 설명이 다소 불친절하거나 오류가 있다면 댓글 남겨주세요.\
       더 성장하는 기회가 될 거에요 :)',
-    copyright: '©2019 hipbob All rights reserved.',
+    copyright: '©2019 currybob All rights reserved.',
     disqusShortname: 'likelionwonhos-blog',
     menu: [
       {
@@ -27,7 +27,7 @@ module.exports = {
     author: {
       name: '🚀Wonho Kim',
       email: 'rhwhdeodhkd@gmail.com',
-      github: 'hipbob',
+      github: 'currybob',
       rss: 'rss.xml',
     },
   },

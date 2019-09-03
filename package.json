@@ -13,7 +13,7 @@
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "https://github.com/hipbob/blogv2",
+  "repository": "https://github.com/currybob/blogv2",
   "keywords": [
     "gatsby",
     "blog",
