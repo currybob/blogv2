@@ -15,7 +15,7 @@ path: "/about"
 - [Dankookie](https://www.dankookie.com/) / Web Develop / 2018. 04 ~<br>단국대학교 학생 커뮤니티 개발팀 소속
 - [GitCodeShare](https://github.com/kosslab-kr/gitCodeShare.com) / FE Develop / 2018.08 ~ 2018.11<br>SNS 코드 공유 서비스 / 오픈소스
 - Dnefit / FE Develop / 2018.07 ~ 2018.09<br>정부지원사업 분석 및 시각화 프로젝트 / 외주
-- Sellery / FE Develop / 2018.07<br>직장인 월급 계산 토이 프로젝트
+- [Sellery](https://undefine.me) / FE Develop / 2018.07<br>직장인 월급 계산 토이 프로젝트
 
 ### CAREER
 - 네이버 주식회사 / 2019.01 ~ 2019.02 / 인턴십
