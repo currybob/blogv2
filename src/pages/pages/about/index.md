@@ -14,10 +14,12 @@ path: "/about"
 
 - [Dankookie](https://www.dankookie.com/) / Web Develop / 2018. 04 ~<br>단국대학교 학생 커뮤니티 개발팀 소속
 - [GitCodeShare](https://github.com/kosslab-kr/gitCodeShare.com) / FE Develop / 2018.08 ~ 2018.11<br>SNS 코드 공유 서비스 / 오픈소스
-- Dnefit / FE Develop / 2018.07 ~ 2018.09<br>정부지원사업 분석 및 시각화 프로젝트 / 외주
-- [Sellery](https://undefine.me) / FE Develop / 2018.07<br>직장인 월급 계산 토이 프로젝트
+- [Dnefit](http://www.dnefit.co.kr) / FE Develop / 2018.07 ~ 2018.09<br>정부지원사업 분석 및 시각화 프로젝트 / 외주
+- [Sellery](https://sellery.me) / FE Develop / 2018.07<br>직장인 월급 계산 토이 프로젝트
 
 ### CAREER
+- [호갱노노 팀](https://hogangnono.com) / 2019.09 ~ / 주니어 개발자
+
 - 네이버 주식회사 / 2019.01 ~ 2019.02 / 인턴십
   - 버티컬비즈서비스 팀
   - React.js, Typescript, Elastic Search, Graphql을 활용한 과제 수행
@@ -32,5 +34,5 @@ path: "/about"
 - 2018 대학생 연합 해커톤 UNITHON 우수상 공동수상
 
 ### EDUCATION
-- 부스트캠프 챌린지 / 2019.07 ~ 2019.08
+- 부스트캠프 챌린지 수료 / 2019.07 ~ 2019.08
 - 단국대학교 경영학 졸업 / 2011.03 ~ 2019.08
