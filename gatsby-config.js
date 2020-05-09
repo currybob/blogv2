@@ -175,7 +175,7 @@ module.exports = {
         background_color: '#FDDE73',
         theme_color: '#FDDE73',
         display: 'standalone',
-        icon: 'https://avatars2.githubusercontent.com/u/18139217?s=400&u=5197a17729f9e1118115b09a378dbd6ceabb15fa&v=4',
+        icon: `${__dirname}/src/assets/images/photo.jpg`
       },
     },
     'gatsby-plugin-robots-txt',

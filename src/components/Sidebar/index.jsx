@@ -22,7 +22,7 @@ class Sidebar extends React.Component {
       <div>
         <Link to="/">
           <img
-            src="https://avatars2.githubusercontent.com/u/18139217?s=400&u=5197a17729f9e1118115b09a378dbd6ceabb15fa&v=4"
+            src={profilePic}
             className="sidebar__author-photo"
             width="90"
             height="90"
