@@ -5,14 +5,14 @@ module.exports = {
   siteMetadata: {
     url: 'https://undefine.me',
     siteUrl: 'https://undefine.me',
-    title: '김원호의 Dev Log',
+    title: '김원호 블로그',
     subtitle:
       '개발을 잡다하게 배워가는 중입니다. 자바스크립트에 관심이 많습니다.',
     footerMessage:
       '대부분 제가 배운 것들을 남기기 위해 글을 쓰고 있습니다.\
       이 글이 도움이 된다면 매우 기쁘겠지만, 설명이 다소 불친절하거나 오류가 있다면 댓글 남겨주세요.\
       더 성장하는 기회가 될 거에요 :)',
-    copyright: '©2019 currybob All rights reserved.',
+    copyright: '©2020 currybob All rights reserved.',
     disqusShortname: 'likelionwonhos-blog',
     menu: [
       {
@@ -25,7 +25,7 @@ module.exports = {
       },
     ],
     author: {
-      name: '🚀Wonho Kim',
+      name: '🚀 bob',
       email: 'rhwhdeodhkd@gmail.com',
       github: 'currybob',
       rss: 'rss.xml',
@@ -169,13 +169,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: '김원호의 Dev Log',
+        name: '김원호 블로그',
         short_name: '김원호 블로그',
         start_url: '/',
         background_color: '#FDDE73',
         theme_color: '#FDDE73',
         display: 'standalone',
-        icon: `${__dirname}/src/assets/images/photo.jpg`,
+        icon: 'https://avatars2.githubusercontent.com/u/18139217?s=400&u=5197a17729f9e1118115b09a378dbd6ceabb15fa&v=4',
       },
     },
     'gatsby-plugin-robots-txt',
