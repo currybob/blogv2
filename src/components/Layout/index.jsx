@@ -10,7 +10,7 @@ class Layout extends React.Component {
     return (
       <div className="layout">
         <Helmet
-          defaultTitle="김원호의 Dev Log"
+          defaultTitle="김원호 블로그"
           link={[
             {
               rel: 'shortcut icon',
